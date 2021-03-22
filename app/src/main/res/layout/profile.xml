@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="232dp"
+        android:src="@drawable/bg"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        app:cardCornerRadius="65dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="130dp"
+        app:cardElevation="11dp">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:elevation="12dp"
+            android:src="@drawable/saya"
+            android:layout_gravity="center"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:layout_height="520dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Musnadil Firdaus"
+            android:fontFamily="@font/bebas_regular"
+            android:textSize="22dp"
+            android:textColor="@color/hitam"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="80dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android Developer"
+            android:textColor="@color/hitam"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="100dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textColor="@color/hitam"
+            android:fontFamily="@font/bebas_regular"
+            android:textSize="22dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="130dp"
+            android:background="@color/putih"
+            />
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider"
+            android:layout_marginTop="140dp"
+            android:elevation="-1dp"
+            />
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:gravity="center"
+            android:text="@string/desc"
+            android:textColor="@color/hitam"
+            android:layout_marginTop="160dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="skills"
+            android:textColor="@color/hitam"
+            android:fontFamily="@font/bebas_regular"
+            android:textSize="22dp"
+            android:layout_gravity="center"
+            android:background="@color/putih"
+            />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider"
+            android:elevation="-1dp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photoshop"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/hitam"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            />
+        <ProgressBar
+            android:id="@+id/photoshop_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:progress="60"
+            android:layout_gravity="center|end"
+            android:progressTint="@color/hitam"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/hitam"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            />
+        <ProgressBar
+            android:id="@+id/java_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:progress="20"
+            android:layout_gravity="center|end"
+            android:progressTint="@color/hitam"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kotlin"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/hitam"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="10dp"
+            />
+        <ProgressBar
+            android:id="@+id/kotlin_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:progress="15"
+            android:layout_gravity="center|end"
+            android:progressTint="@color/hitam"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HTML + CSS"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/hitam"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="10dp"
+            />
+        <ProgressBar
+            android:id="@+id/html_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:progress="40"
+            android:layout_gravity="center|end"
+            android:progressTint="@color/hitam"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="education"
+            android:textColor="@color/hitam"
+            android:fontFamily="@font/bebas_regular"
+            android:textSize="22dp"
+            android:layout_gravity="center"
+            android:background="@color/putih"
+            android:layout_marginTop="120dp"
+            />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider"
+            android:elevation="-1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2006 - 2013"
+            android:textColor="@color/hitam"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="100dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SDN Pepedan 02"
+            android:textColor="@color/hitam"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="100dp"
+            android:layout_marginLeft="120dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2013 - 2016"
+            android:textColor="@color/hitam"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMP N 1 TEGAL"
+            android:textColor="@color/hitam"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="120dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016 - 2019"
+            android:textColor="@color/hitam"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMA N 3 TEGAL"
+            android:textColor="@color/hitam"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="120dp"
+            />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

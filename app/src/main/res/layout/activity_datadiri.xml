@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".datadiri"
+    android:gravity="center|top"
+    >
+
+    <EditText
+        android:id="@+id/et_depan"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan nama depan"
+        android:layout_marginTop="100dp"
+        />
+
+    <EditText
+        android:id="@+id/et_belakang"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan ama belakang"
+        android:layout_below="@id/et_depan"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_below="@id/et_belakang"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="110dp"
+        />
+
+
+
+
+</RelativeLayout>
